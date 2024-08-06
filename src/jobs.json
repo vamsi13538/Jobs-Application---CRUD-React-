@@ -1,0 +1,91 @@
+{
+  "jobs": [
+    {
+      "type": "Full-Time",
+      "role": "Software Engineer",
+      "id": "1",
+      "description": "Responsible for developing and maintaining software applications. Collaborate with cross-functional teams to define, design, and ship new features. Write clean, scalable, and maintainable code. Participate in code reviews and provide constructive feedback. Troubleshoot, debug, and upgrade existing software. Stay updated with emerging technologies and industry trends.",
+      "salary": "$75K-$85K",
+      "company": {
+        "name": "Tech Innovations Inc.",
+        "description": "Tech Innovations Inc. is a leading provider of cutting-edge technology solutions. Specializing in AI and machine learning, the company offers a range of products designed to enhance business productivity. Their team of experts is dedicated to delivering innovative solutions tailored to client needs. With a focus on customer satisfaction, they ensure top-quality service and support. Their state-of-the-art technology helps businesses stay ahead in a competitive market.",
+        "contactEmail": "contact@techinnovations.com",
+        "contactPhone": "+1234567890"
+      },
+      "location": "Hyderabad, TG",
+      "link": "job1"
+    },
+    {
+      "id": "2",
+      "role": "Frontend Developer",
+      "type": "Part-Time",
+      "location": "Bangalore, KA",
+      "salary": "$60K-$70K",
+      "description": "Design and implement user interfaces for web applications. Work closely with designers to translate mockups into fully functioning features. Ensure the technical feasibility of UI/UX designs. Optimize applications for maximum speed and scalability. Maintain and improve website. Collaborate with other team members and stakeholders.",
+      "company": {
+        "name": "Green Earth Solutions",
+        "description": "Green Earth Solutions is a sustainability-focused company committed to promoting eco-friendly practices. They offer a variety of services including waste management, recycling, and renewable energy solutions. Their mission is to reduce environmental impact and help businesses adopt sustainable practices. With a team of dedicated professionals, they provide comprehensive support and consulting. Their innovative solutions are designed to meet the unique needs of each client. Green Earth Solutions is a trusted partner in creating a greener future.",
+        "contactEmail": "info@greenearthsolutions.com",
+        "contactPhone": "+1987654321"
+      }
+    },
+    {
+      "id": "3",
+      "role": "Backend Developer",
+      "type": "Full-Time",
+      "location": "Chennai, TN",
+      "salary": "$80K-$90K",
+      "description": "Develop and maintain server-side logic and databases. Ensure high performance and responsiveness to requests from the front-end. Integrate user-facing elements developed by front-end developers. Write reusable, testable, and efficient code. Implement security and data protection. Stay current with industry standards and best practices.",
+      "company": {
+        "name": "Healthcare Innovations LLC",
+        "description": "Healthcare Innovations LLC is at the forefront of the medical technology industry. They specialize in developing advanced medical devices and software solutions. Their products are designed to improve patient care and streamline healthcare processes. With a focus on innovation, they continually invest in research and development. Their team of experts works closely with healthcare providers to create customized solutions. They are committed to enhancing the quality of healthcare services. Healthcare Innovations LLC is a trusted name in medical technology.",
+        "contactEmail": "support@healthcareinnovations.com",
+        "contactPhone": "+1122334455"
+      }
+    },
+    {
+      "type": "Part-Time",
+      "role": "Full Stack Developer",
+      "id": "4",
+      "description": "Work on both front-end and back-end of web applications. Develop new features from concept to production. Ensure the application is optimized for maximum speed and scalability. Collaborate with other team members to create and maintain a robust framework. Maintain code quality, organization, and automation.",
+      "salary": "$70K-$80K",
+      "company": {
+        "name": "EduTech Solutions",
+        "description": "EduTech Solutions is a leader in educational technology, providing innovative tools and platforms for learning. Their products include online learning systems, interactive educational content, and student management software. They are dedicated to enhancing the educational experience for students and teachers alike. Their team of experts collaborates with educators to develop customized solutions. They focus on creating engaging and effective learning environments. EduTech Solutions is committed to the future of education. They strive to make learning accessible and enjoyable for all.",
+        "contactEmail": "contact@edutechsolutions.com",
+        "contactPhone": "+1223344556"
+      },
+      "location": "Pune, MH",
+      "link": "job4"
+    },
+    {
+      "id": "5",
+      "role": "DevOps Engineer",
+      "type": "Part-Time",
+      "location": "Delhi, DL",
+      "salary": "$85K-$95K",
+      "description": "Manage and automate the software development process. Implement continuous integration and delivery (CI/CD) pipelines. Monitor system performance and troubleshoot issues. Collaborate with development and operations teams to improve deployment processes. Ensure security, scalability, and reliability of the infrastructure. Stay updated with the latest DevOps tools and practices.",
+      "company": {
+        "name": "Global Logistics Co.",
+        "description": "Global Logistics Co. is a premier provider of logistics and supply chain solutions. They offer a wide range of services including freight forwarding, warehousing, and distribution. Their goal is to optimize supply chain operations for businesses worldwide. With a network of strategic partners, they ensure timely and efficient delivery of goods. Their experienced team provides personalized service and support. They are committed to reliability and excellence in all their operations. Global Logistics Co. is a trusted name in the logistics industry.",
+        "contactEmail": "info@globallogistics.com",
+        "contactPhone": "+1445566778"
+      }
+    },
+    {
+      "type": "Part-Time",
+      "role": "QA Engineer",
+      "id": "6",
+      "description": "Test and ensure the quality of software applications. Develop and execute test plans and test cases. Identify, document, and track defects. Collaborate with developers to resolve issues. Perform regression testing to ensure existing functionality is not broken. Stay current with the latest testing methodologies and tools.",
+      "salary": "$65K-$75K",
+      "company": {
+        "name": "FinTech Innovations",
+        "description": "FinTech Innovations is a pioneer in financial technology solutions. They provide a range of services including digital banking, payment processing, and financial analytics. Their products are designed to enhance the efficiency and security of financial transactions. They are committed to staying at the forefront of technology and innovation. Their team of experts works closely with clients to develop customized solutions. They focus on delivering value and improving the customer experience. FinTech Innovations is a trusted partner in the financial sector.",
+        "contactEmail": "support@fintechinnovations.com",
+        "contactPhone": "+1556677889"
+      },
+      "location": "Kolkata, WB",
+      "link": "job6"
+    }
+  ]
+}

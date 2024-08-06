@@ -1,0 +1,561 @@
+:root{
+  --blackBorder: 1px solid black;
+  --redBorder: 1px solid red;
+  --greenBorder : 1px solid green;
+  --blueBorder: 1px solid blue;
+  --P2rem: 0.2rem 0.2rem;
+  --P4rem: 0.4rem 0.4rem;
+  --primaryColor: #4338ca;
+  --textWhite: white;
+  --cardWhiteSmokeBgColor: whitesmoke;
+  --locationInfoColor: orange;
+  --deletJobBtnColor: red;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: cursive;
+  background-color: whitesmoke;
+}
+
+/* Navbar section starts here */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  padding: var(--P2rem);
+  margin: 0.1rem auto;
+  background-color: var(--primaryColor);
+  color: var(--textWhite);
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  padding: var(--P2rem);
+}
+
+.imageContainer{
+  border: 2px solid green;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.logoContainer p{
+  font-size: 1.4rem;
+  padding: var(--P2rem);
+  margin-left: 1rem;
+  color: white;
+}
+
+.listItems{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding: var(--P2rem);
+  margin-right: 3rem;
+}
+.listItems li{
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer; 
+}
+
+.listItems li a{
+  text-decoration: none;
+  color: var(--textWhite);
+}
+
+.activeBg{
+  border-bottom: 2px solid white;
+  border-radius: 0.4rem;
+  padding: var(--P4rem);
+  background-color: black;
+}
+
+.unActiveBg{
+  border: none;
+  background-color: var(--primaryColor);
+}
+
+#linkHover:hover{
+  border-bottom: 2px solid black;
+}
+
+/* Navbar section ends here */
+
+/* Main heding section starts here */
+.mainHeading{
+  width: 98%;
+  height: 16rem;
+  padding: var(--P2rem);
+  margin: 0rem auto;
+  background-color: var(--primaryColor);
+  color: var(--textWhite);
+}
+
+.mainTitle{
+  padding: var(--P2rem);
+  font-size: 2.4rem;
+}
+
+.subTitle{
+  padding: var(--P2rem);
+  font-size: 1.2rem;
+}
+
+.titleContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--P2rem);
+  margin-top: 4rem;
+}
+
+.titleContainer p{
+  margin: 0.4rem 0rem;
+}
+
+/* Main heding section ends here */
+
+/* Home cards section starts here */
+.homeCardsContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+  margin: 0rem auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: white;
+}
+
+.targetLink{
+  text-decoration: none;
+  color: white;
+}
+
+.card{
+  width: 44%;
+  padding: var(--P4rem);
+  border-radius: 0.6rem;
+  height: 10rem;
+  margin: 0.2rem 0.2rem;
+  box-shadow: 2px 3px 6px gray;
+}
+
+.card h3, .card p{
+  margin: 0.4rem 0rem;
+  padding: var(--P2rem);
+}
+
+.card button{
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.6rem;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+
+/* Home cards section ends here */
+
+/* Job listing section starts here */
+.jobListingCotainer{
+  width: 94%;
+  margin: 0.1rem auto;
+  padding: var(--P2rem);
+  background-color: whitesmoke;
+}
+
+.jobHeader{
+  padding: var(--P4rem);
+  text-align: center;
+  color: var(--primaryColor);
+  font-size: 1.2rem;
+}
+
+.jobListingMainCardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 98%;
+  margin: 0.1rem auto;
+  padding-bottom: 2rem;
+}
+
+.jobListingCard{
+  width: 32%;
+  padding: var(--P2rem);
+  border-radius: 0.6rem;
+  margin: 0.2rem 0rem;
+  box-shadow: 2px 3px 6px silver;
+  background-color: white;
+}
+
+.jobType{
+  font-size: 1rem;
+  padding: var(--P4rem);
+  color: grey;
+  font-weight: bold;
+}
+
+.jobRole{
+  padding: var(--P2rem);
+  color: black !important;
+}
+
+.showMoreJobInfo{
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.jobInfo{
+  padding: var(--P2rem);
+  line-height: 1.4em;
+  text-align: justify;
+  padding-bottom: 0.8rem;
+}
+
+.jobSalary{
+  padding: var(--P2rem);
+  padding-bottom: 0.6rem;
+  font-size: 1rem;
+  color: var(--primaryColor);
+  border-bottom: 2px solid gainsboro;
+}
+
+.jobFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--P2rem);
+  padding-top: 0.6rem;
+}
+
+.jobLocation{
+  padding: var(--P2rem);
+  color: orange;
+}
+
+.jobReadMore{
+  border: var(--blackBorder);
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--primaryColor);
+  color: var(--textWhite);
+}
+
+.jobReadMore a{
+  text-decoration: none;
+  color: var(--textWhite);
+}
+
+/* Job listing section ends here */
+
+/* View all jobs button starts here */
+.viewAllJobsBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--P2rem);
+  width: 98%;
+  margin: 0.1rem auto;
+  height: 6rem;
+  background-color: white;
+}
+
+.viewAllJobsBtn button{
+  border-radius: 0.6rem;
+  width: 30%;
+  padding: 0.8rem 0.8rem;
+  background-color: black;
+  font-size: 1rem;
+}
+
+.viewAllJobsBtn button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* View all jobs button ends here */
+
+/* Not found page starts here */
+.notFoundPageContainer{
+  text-align: center;
+  padding: var(--P2rem);
+  width: 40%;
+  margin: 0.1rem auto;
+  margin-top: 2rem;
+}
+
+.notFoundIcond{
+  font-size: 3rem;
+  color: orange;
+}
+
+.notFoundPageContainer p{
+  padding: var(--P2rem);
+}
+
+.notFoundPageContainer button{
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  margin-top: 1rem;
+  background-color: var(--primaryColor);
+}
+
+.notFoundPageContainer button:hover{
+  background-color: black;
+  color: white;
+}
+
+.goBackBtn{
+  text-decoration: none;
+  color: white;
+}
+
+/* Not found page ends here */
+
+/* Job page section starts here */
+.backToJobContainer{
+  display: flex;
+  padding: var(--P2rem);
+  padding: 0.4rem 0.2rem;
+  width: 98%;
+  margin: 0.1rem auto;
+  background-color: var(--textWhite);
+}
+
+.backToJobContainer a{
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+.jobInfoMainContainer{
+  display: flex;
+  gap: 0.4rem;
+  padding: var(--P2rem);
+  width: 98%;
+  margin: 0.1rem auto;
+  margin-top: 1rem;
+}
+
+.jobTitleInfo, .jobDescriptionInfo{
+  border-radius: 0.4rem;
+  padding: var(--P2rem);
+  width: 98%;
+  margin: 0.1rem auto;
+  background-color: var(--textWhite);
+  box-shadow: 2px 3px 4px gray;
+}
+
+.jobDescriptionInfo{
+  margin-top: 2rem;
+}
+
+.jobInfoLeftContainer{
+  padding: var(--P2rem);
+  width: 75%;
+}
+
+.companyInfoContainer, .manageJobContainer{
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.2rem;
+  width: 98%;
+  margin: 0.1rem auto;
+  background-color: var(--textWhite);
+  box-shadow: 0px 4px 4px gray;
+}
+
+.jobInfoRightContainer{
+  padding: var(--P2rem);
+  width: 25%;
+}
+
+.jobRole, .jobTitle, .jobLocationInfo,.jobDescriptionTitle, .jobDescription, .jobSalaryTitle, .jobSalaryNumber, .companyHeader, .companyName, .companyDescription, .companyEmailHeader, .companyEmail, .companyContactHeader, .companyContactPhone, .manageJobHeader{
+  padding: 0.2rem 0.8rem;
+}
+
+.jobLocationInfo{
+  color: var(--locationInfoColor);
+}
+
+.jobDescriptionTitle, .jobSalaryTitle{
+  color: var(--primaryColor);
+  padding: var(--P4rem);
+}
+
+.jobDescription{
+  text-align: justify;
+}
+
+.jobRole{
+  color: grey;
+}
+
+.faArrowLeft{
+  font-size: 1rem;
+}
+
+.jobLocationMarker{
+  font-size: 0.9rem;
+}
+
+.faBuildingIcon{
+  font-size: 1.1rem;
+}
+
+.companyHeader{
+  font-weight: bold;
+}
+
+.companyName{
+  font-size: 1.3rem;
+  color: var(--primaryColor);
+}
+
+.companyDescription{
+  text-align: justify;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.companyEmailHeader{
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.companyEmail, .companyContactPhone{
+  padding: var(--P2rem);
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  width: 98%;
+  margin: 0.1rem auto;
+  background-color: var(--cardWhiteSmokeBgColor);
+}
+
+.companyContactPhone{
+  margin-bottom: 2rem;
+}
+
+.manageJobContainer{
+  margin-top: 1rem;
+  padding: var(--P4rem);
+}
+
+.manageJobHeader{
+  font-weight: bold;
+}
+
+.editJobBtn, .deleteJobBtn{
+  border: 1px solid lightgray;
+  border-radius: 0.8rem;
+  padding: 0.6rem 0.4rem;
+  width: 98%;
+  margin: 0.4rem auto;
+}
+
+.editJobBtn a, .deleteJobBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.editJobBtn{
+  background-color: var(--primaryColor);
+}
+
+.deleteJobBtn{
+  background-color: var(--deletJobBtnColor);
+}
+
+.editJobBtn,.deleteJobBtn:hover{
+  cursor: pointer;
+}
+
+/* Job page section ends here */
+
+/* Add job section starts here */
+.addJobContainer{
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  padding: var(--P2rem);
+  width: 38%;
+  margin: 0.1rem auto;
+  margin-top: 3rem;
+  background-color: var(--textWhite);
+  box-shadow: 1px 2px 3px #ccc;
+}
+
+.addJobContainer h2{
+  text-align: center;
+  padding: var(--P2rem);
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.addJobContainer label{
+  padding: var(--P4rem);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea, select{
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  padding: var(--P4rem);
+  margin: 0.4rem 0.4rem;
+  width: 97%;
+}
+
+.addJobBtn{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  width: 98%;
+  padding: 0.6rem 0.4rem;
+  margin: 0.1rem auto;
+  background-color: var(--primaryColor);
+}
+
+.addJobBtn:hover{
+  cursor: pointer;
+}
+
+.addJobBtn a{
+  text-decoration: none;
+  color: var(--textWhite);
+}
+
+.addJobCompanyInfoHeader{
+  padding: var(--P4rem);
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0.2rem 0rem;
+}
+
+/* Add job section ends here */
